@@ -12,8 +12,11 @@
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@tailwindcss/vite": "^4.1.16",
+    "cloudinary": "^2.9.0",
     "framer-motion": "^12.23.26",
+    "fs-extra": "^11.3.3",
     "lucide-react": "^0.552.0",
+    "path": "^0.12.7",
     "react": "^19.1.1",
     "react-countup": "^6.5.3",
     "react-dom": "^19.1.1",

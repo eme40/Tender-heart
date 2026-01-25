@@ -1,7 +1,5 @@
 // PhotoPage.jsx - Media Type Selection
 import React from 'react';
-import img from '../assets/media/image.jpg';
-import video from '../assets/media/video.jpg';
 import { Link } from 'react-router-dom';
 import { Image, Video, ArrowRight, Sparkles } from 'lucide-react';
 import { motion } from 'framer-motion';
@@ -56,7 +54,7 @@ const PhotoPage = () => {
 								{/* Background Image */}
 								<div 
 									className='absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110'
-									style={{ backgroundImage: `url(${img})` }}>
+									style={{ backgroundImage: `url(${'https://res.cloudinary.com/ddad0j57l/image/upload/v1769298707/Design/media/category_kmjtu5.jpg'})` }}>
 									<div className='absolute inset-0 bg-linear-to-t from-bgPrimary via-bgPrimary/80 to-bgPrimary/40 dark:from-gray-900 dark:via-gray-900/90 dark:to-gray-900/60'></div>
 								</div>
 
@@ -96,7 +94,7 @@ const PhotoPage = () => {
 							{/* Background Image */}
 							<div 
 								className='absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110'
-								style={{ backgroundImage: `url(${video})` }}>
+								style={{ backgroundImage: `url(${'https://res.cloudinary.com/ddad0j57l/image/upload/v1769298797/Design/media/video_ehrrwx.jpg'})` }}>
 								<div className='absolute inset-0 bg-linear-to-t from-bgPrimary via-bgPrimary/80 to-bgPrimary/40 dark:from-gray-900 dark:via-gray-900/90 dark:to-gray-900/60'></div>
 							</div>
 

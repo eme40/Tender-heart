@@ -1,6 +1,5 @@
 // PhotoCategory.jsx - Category Selection
 import { Link } from 'react-router-dom';
-import cat from '../assets/media/photo/catego.jpg';
 import { Image, ArrowRight } from 'lucide-react';
 import {
 	school_Activity,
@@ -29,7 +28,7 @@ const PhotoCategory = () => {
 		<div className='min-h-screen bg-white dark:bg-gray-950'>
 			{/* Hero */}
 			<section
-				style={{ backgroundImage: `url(${cat})` }}
+				style={{ backgroundImage: `url(${'https://res.cloudinary.com/ddad0j57l/image/upload/v1769298434/Design/media/catego_cuennt.jpg'})` }}
 				className='relative h-[400px] bg-cover bg-center flex items-center justify-center'>
 				<div className='absolute inset-0 bg-linear-to-b from-bgPrimary/80 via-bgPrimary/70 to-bgPrimary/80 dark:from-gray-900/90 dark:to-gray-900/90'></div>
 				<div className='relative text-center space-y-4'>

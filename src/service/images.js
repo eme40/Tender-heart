@@ -1,38 +1,22 @@
 
 
-// Excursion party
-import christmas1 from '../assets/christmas/WhatsApp Image 2026-01-01 at 3.59.19 PM.jpeg'
-import christmas2 from '../assets/christmas/WhatsApp Image 2026-01-01 at 3.59.20 PM (1).jpeg'
-import christmas3 from '../assets/christmas/WhatsApp Image 2026-01-01 at 3.59.20 PM.jpeg'
-import christmas4 from '../assets/christmas/WhatsApp Image 2026-01-01 at 3.59.08 PM.jpeg'
-import christmas5 from '../assets/christmas/WhatsApp Image 2026-01-01 at 3.59.08 PM (1).jpeg'
-// swimming 
-import swimming1 from '../assets/swimming/WhatsApp Image 2026-01-01 at 4.02.21 PM.jpeg'
-import swimming2 from '../assets/swimming/WhatsApp Image 2026-01-08 at 9.28.22 PM.jpeg'
-import swimming3 from '../assets/swimming/WhatsApp Image 2026-01-08 at 9.29.19 PM.jpeg'
-import swimming4 from '../assets/swimming/WhatsApp Image 2026-01-08 at 9.32.27 PM.jpeg'
 
-// EVENT
-import event1 from '../assets/event/WhatsApp Image 2026-01-08 at 10.04.14 PM.jpeg'
-import event2 from '../assets/event/WhatsApp Image 2026-01-08 at 10.04.18 PM.jpeg'
-import event3 from '../assets/event/WhatsApp Image 2026-01-08 at 10.04.26 PM.jpeg'
-import event4 from '../assets/event/WhatsApp Image 2026-01-08 at 10.04.32 PM.jpeg'
-import event5 from '../assets/event/WhatsApp Image 2026-01-08 at 10.04.33 PM.jpeg'
-
-// class activities 
-import classActivity1 from '../assets/tender heart gallary/ClassActivity1.jpeg'
-import classActivity2 from '../assets/tender heart gallary/classActivity2.jpeg'
-
-// entertainment images
-import entertainment1 from '../assets/tender heart gallary/art and culture.jpeg'
 export const school_Activity = [
     {
         id: 1,
-        img: classActivity1,
+        img: 'https://res.cloudinary.com/ddad0j57l/image/upload/v1769296138/Class-Activity/WhatsApp_Image_2025-12-31_at_5.07.27_PM_1_jqwyyg.jpg',
     },
     {
         id: 2,
-        img: classActivity2,
+        img: 'https://res.cloudinary.com/ddad0j57l/image/upload/v1769296131/Class-Activity/WhatsApp_Image_2025-12-31_at_5.07.27_PM_uytqws.jpg',
+    },
+     {
+        id: 3,
+        img: 'https://res.cloudinary.com/ddad0j57l/image/upload/v1769296121/Class-Activity/WhatsApp_Image_2025-12-31_at_5.07.28_PM_1_ckhtgx.jpg',
+    },
+      {
+        id: 4,
+        img: 'https://res.cloudinary.com/ddad0j57l/image/upload/v1769296076/Class-Activity/WhatsApp_Image_2025-12-31_at_5.07.28_PM_2_g0dktd.jpg',
     },
 
    
@@ -42,69 +26,66 @@ export const school_Activity = [
 export const event = [
        {
         id: 1,
-        img: event1,
+        img: 'https://res.cloudinary.com/ddad0j57l/image/upload/v1769295139/Event/WhatsApp_Image_2026-01-08_at_10.04.33_PM_ifmaos.jpg',
     },
     {
         id: 2,
-        img: event2,
+        img:  'https://res.cloudinary.com/ddad0j57l/image/upload/v1769295138/Event/WhatsApp_Image_2026-01-08_at_10.04.32_PM_vsojdv.jpg',
     },
     {
         id: 3,
-        img: event3,
+        img: 'https://res.cloudinary.com/ddad0j57l/image/upload/v1769295138/Event/WhatsApp_Image_2026-01-08_at_10.04.26_PM_fqlglp.jpg',
     },
      {
         id: 4,
-        img: event4,
+        img:'https://res.cloudinary.com/ddad0j57l/image/upload/v1769295137/Event/WhatsApp_Image_2026-01-08_at_10.04.14_PM_j5ujvl.jpg',
     },
      {
         id: 5,
-        img: event5,
+        img: 'https://res.cloudinary.com/ddad0j57l/image/upload/v1769295137/Event/WhatsApp_Image_2026-01-08_at_10.04.18_PM_o2yqwq.jpg',
     },
-      {
-        id: 6,
-        img: entertainment1,
-    },
+
      
   
 ]
 export const excursion = [
        {
         id: 1,
-        img: christmas1,
+        img: 'https://res.cloudinary.com/ddad0j57l/image/upload/v1769295572/Excursion/WhatsApp_Image_2026-01-01_at_3.59.19_PM_fjwpwv.jpg',
     },
     {
         id: 2,
-        img: christmas2,
+        img: 'https://res.cloudinary.com/ddad0j57l/image/upload/v1769295572/Excursion/WhatsApp_Image_2026-01-01_at_3.59.20_PM_rpdbzq.jpg',
     },
     {
         id: 3,
-        img: christmas3,
+        img: 'https://res.cloudinary.com/ddad0j57l/image/upload/v1769295571/Excursion/WhatsApp_Image_2026-01-01_at_3.59.20_PM_1_uhhewe.jpg'
     },
     {
         id: 4,
-        img: christmas4,
+        img: 'https://res.cloudinary.com/ddad0j57l/image/upload/v1769295565/Excursion/WhatsApp_Image_2026-01-01_at_3.59.08_PM_1_aiaehl.jpg',
     },
     {
         id: 5,
-        img: christmas5,
+        img: 'https://res.cloudinary.com/ddad0j57l/image/upload/v1769295568/Excursion/WhatsApp_Image_2026-01-01_at_3.59.08_PM_no3rch.jpg',
     },
 
 ]
 export const swimming = [
        {
         id: 1,
-        img: swimming1,
+        img: 'https://res.cloudinary.com/ddad0j57l/image/upload/v1769294811/Swimming/WhatsApp_Image_2026-01-08_at_9.29.19_PM_p9f9b7.jpg',
     },
     {
         id: 2,
-        img: swimming2,
+        img: 'https://res.cloudinary.com/ddad0j57l/image/upload/v1769294811/Swimming/WhatsApp_Image_2026-01-08_at_9.32.27_PM_w6xmmo.jpg',
     },
     {
         id: 3,
-        img: swimming3,
+        img: 'https://res.cloudinary.com/ddad0j57l/image/upload/v1769294811/Swimming/WhatsApp_Image_2026-01-01_at_4.02.21_PM_bmju2c.jpg',
     },
     {
         id: 4,
-        img: swimming4,
+        img: 'https://res.cloudinary.com/ddad0j57l/image/upload/v1769294811/Swimming/WhatsApp_Image_2026-01-08_at_9.28.22_PM_qwlgde.jpg',
     },
 ]

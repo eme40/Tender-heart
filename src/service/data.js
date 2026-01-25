@@ -1,9 +1,3 @@
-import testmonial1 from '../assets/testmonial/Mrs Chukwuebuka Ijeoma.jpeg';
-import testmonial2 from '../assets/testmonial/Mrs Ndubuisi Charity.jpeg';
-import testmonial3 from '../assets/testmonial/Mr Uchenna Chukwu.jpeg';
-import testmonial4 from '../assets/testmonial/Mrs Faustina Oji.jpeg';
-import testmonial5 from '../assets/testmonial/Mr Obinna Ubosi.jpeg';
-import testmonial6 from '../assets/testmonial/Mr Anieto.jpeg';
 
 import drama from '../assets/advantage/image 5.png';
 import french from '../assets/advantage/image 8.png';
@@ -60,7 +54,7 @@ export const services = [
 export const testmonials = [
 	{
 		id: 1,
-		img: testmonial1,
+		img: 'https://res.cloudinary.com/ddad0j57l/image/upload/v1769297938/Design/Parent/Mrs_Chukwuebuka_Ijeoma_lavbf5.jpg',
 		name: 'Mrs. Chukwuebuka Ijeoma',
 		message:
 			"Ever since my child joined Tender Heart, I've seen remarkable improvement in confidence, discipline, and academic performance. The teachers genuinely care about each student's growth.",
@@ -69,7 +63,7 @@ export const testmonials = [
 	},
 	{
 		id: 2,
-		img: testmonial2,
+		img: 'https://res.cloudinary.com/ddad0j57l/image/upload/v1769297990/Design/Parent/Mrs_Ndubuisi_Charity_k3d5qw.jpg',
 		name: 'Mrs. Charity Ndubuisi',
 		message:
 			"The school provides a safe, nurturing, and inspiring environment. My daughter comes home excited to share what she learned, and her faith has grown stronger through the school's values.",
@@ -78,7 +72,7 @@ export const testmonials = [
 	},
 	{
 		id: 3,
-		img: testmonial3,
+		img: 'https://res.cloudinary.com/ddad0j57l/image/upload/v1769297966/Design/Parent/Mr_Uchenna_Chukwu_lep0fg.jpg',
 		name: 'Mr. Uchenna Chukwu',
 		message:
 			"I appreciate the school's commitment to excellence. The learning methods, the extracurricular activities, and the character building programs have made a significant impact on my son.",
@@ -87,7 +81,7 @@ export const testmonials = [
 	},
 	{
 		id: 4,
-		img: testmonial4,
+		img: 'https://res.cloudinary.com/ddad0j57l/image/upload/v1769297986/Design/Parent/Mrs_Faustina_Oji_ycz8un.jpg',
 		name: 'Mrs. Faustina Oji',
 		message:
 			"Joining this school has been one of the best decisions we've made for our child. The teachers are passionate, the curriculum is comprehensive, and the spiritual foundation is solid.",
@@ -96,7 +90,7 @@ export const testmonials = [
 	},
 	{
 		id: 5,
-		img: testmonial5,
+		img: 'https://res.cloudinary.com/ddad0j57l/image/upload/v1769297964/Design/Parent/Mr_Obinna_Ubosi_iqimmv.jpg',
 		name: 'Mr. Obinna Ubosi',
 		message:
 			"What stands out for me is the school's balance between academics and character development. My child is not only excelling in studies but also growing in compassion and leadership.",
@@ -105,7 +99,7 @@ export const testmonials = [
 	},
 	{
 		id: 6,
-		img: testmonial6,
+		img: 'https://res.cloudinary.com/ddad0j57l/image/upload/v1769297960/Design/Parent/Mr_Anieto_xqjk16.jpg',
 		name: 'Mr. Anieto',
 		message:
 			'I am impressed with the level of professionalism and dedication from the entire staff. The school maintains high standards while ensuring every child feels loved and valued.',

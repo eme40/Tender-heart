@@ -1,7 +1,5 @@
 import React from 'react';
-import heroImage from '../assets/hero image/heroImage.jpeg';
-import proprietress from '../assets/tender heart gallary/EDITH.jpeg'
-import proprietress2 from '../assets/tender heart gallary/Chukwuemeka Edith.jpeg'
+
 import { MoveRight, Quote, MoveLeft, Star } from 'lucide-react';
 import { services, testmonials } from '../service/data';
 import teacher from '../assets/advantage/Teaching-pana 1.png';
@@ -185,7 +183,7 @@ const LandingPage = () => {
 						<div className='relative aspect-4/5 md:aspect-square'>
 							<img
 								className='w-full h-full object-cover rounded-2xl shadow-2xl'
-								src={heroImage}
+								src='https://res.cloudinary.com/ddad0j57l/image/upload/v1769296668/Design/Hero/heroImage_bzvsws.jpg'
 								alt='Students at Tender Heart School learning and growing together'
 							/>
 							<div className='absolute inset-0 rounded-2xl ring-4 ring-textSecondary/20 dark:ring-textSecondary/30 ring-offset-4 ring-offset-bgPrimary dark:ring-offset-gray-900'></div>
@@ -226,8 +224,8 @@ const LandingPage = () => {
 							className='flex flex-col items-center text-center space-y-4 md:order-first lg:order-first'>
 							<div className='relative'>
 								<img
-									className='w-64 h-64 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-2xl object-cover shadow-xl'
-									src={proprietress2}
+									className='w-64 h-64 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-2xl object-top object-cover shadow-xl'
+									src='https://res.cloudinary.com/ddad0j57l/image/upload/v1769297741/Design/proprietress/WhatsApp_Image_2025-12-31_at_5.02.22_PM_bvqb3v.jpg'
 									alt='Mrs. Chukwuemeka Edith O., Proprietress of Tender Heart'
 								/>
 								<div className='absolute inset-0 rounded-2xl ring-4 ring-bgPrimary/10 dark:ring-textSecondary/20'></div>
