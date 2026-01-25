@@ -2,7 +2,6 @@ import React from 'react';
 
 import { MoveRight, Quote, MoveLeft, Star } from 'lucide-react';
 import { services, testmonials } from '../service/data';
-import teacher from '../assets/advantage/Teaching-pana 1.png';
 import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
@@ -332,7 +331,7 @@ const LandingPage = () => {
 							transition={{ duration: 0.6 }}
 							className='relative hidden md:block h-[400px] md:h-[600px] rounded-2xl overflow-hidden shadow-xl'>
 							<img
-								src={teacher}
+								src='https://res.cloudinary.com/ddad0j57l/image/upload/v1769299162/Design/why%20choose%20us/Teaching-pana_1_at9jxl.png'
 								alt='Tender Heart educator with students'
 								className='w-full h-full object-cover'
 							/>
