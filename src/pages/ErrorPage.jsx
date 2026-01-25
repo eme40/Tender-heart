@@ -1,5 +1,4 @@
 // pages/ErrorPage.jsx
-// pages/ErrorPage.jsx
 import React from "react";
 import { useRouteError } from "react-router-dom";
 import { Home, ArrowLeft, Search } from "lucide-react";
@@ -7,9 +6,10 @@ import { Home, ArrowLeft, Search } from "lucide-react";
 const ErrorPage = () => {
   const error = useRouteError();
   
+  console.error(error);
 
   return (
-    <div className="min-h-screen bg-linear-to-br from-indigo-500 via-purple-500 to-pink-500 flex items-center justify-center p-4">
+    <div className="min-h-screen flex items-center justify-center p-4" style={{ backgroundColor: '#0E4C4A' }}>
       <div className="max-w-2xl w-full">
         {/* Animated 404 */}
         <div className="text-center mb-8">
@@ -44,7 +44,7 @@ const ErrorPage = () => {
             
             <a
               href="/"
-              className="group flex items-center justify-center gap-2 px-6 py-3 bg-white text-purple-600 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
+              className="group flex items-center justify-center gap-2 px-6 py-3 bg-white text-slate-900 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
             >
               <Home className="w-5 h-5" />
               Home Page

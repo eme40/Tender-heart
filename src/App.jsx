@@ -16,20 +16,21 @@ import ServicesPage from "./pages/ServicesPage";
 import ErrorPage from "./pages/ErrorPage"; // Import it
 
 const App = () => {
-  const router = createBrowserRouter(
-    createRoutesFromElements(
-      <Route element={<Layout />} errorElement={<ErrorPage />}> {/* <--- add errorElement here */}
-        <Route index element={<LandingPage />} />
-        <Route path="home" element={<LandingPage />} />
-        <Route path="about" element={<AboutUsPage />} />
-        <Route path="contact" element={<ContactPage />} />
-        <Route path="media" element={<PhotoPage />} />
-        <Route path="media/category" element={<PhotoCategory />} />
-        <Route path="media/gallery" element={<PhotoGallery />} />
-        <Route path="services" element={<ServicesPage />} />
-      </Route>
-    )
-  );
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route element={<Layout />} errorElement={<ErrorPage />}>
+      <Route index element={<LandingPage />} />
+      <Route path="home" element={<LandingPage />} />
+      <Route path="about" element={<AboutUsPage />} />
+      <Route path="contact" element={<ContactPage />} />
+      <Route path="media" element={<PhotoPage />} />
+      <Route path="media/category" element={<PhotoCategory />} />
+      <Route path="media/gallery" element={<PhotoGallery />} />
+      <Route path="services" element={<ServicesPage />} />
+      <Route path="*" element={<ErrorPage />} /> {/* Best approach */}
+    </Route>
+  )
+);
 
   return <RouterProvider router={router} />;
 };
