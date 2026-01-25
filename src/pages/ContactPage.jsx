@@ -339,7 +339,7 @@ const ContactPage = () => {
 										onChange={handleChange}
 										required
 										disabled={isSubmitting}
-										placeholder='John Doe'
+										placeholder='Eric Dominic'
 										className='w-full px-5 py-4 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl focus:outline-none focus:ring-2 focus:ring-bgPrimary dark:focus:ring-textSecondary focus:border-transparent transition-all text-gray-900 dark:text-gray-100 placeholder-gray-400 disabled:opacity-50 disabled:cursor-not-allowed'
 									/>
 								</div>
@@ -356,7 +356,7 @@ const ContactPage = () => {
 											onChange={handleChange}
 											required
 											disabled={isSubmitting}
-											placeholder='johndoe@example.com'
+											placeholder='eric@example.com'
 											className='w-full px-5 py-4 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl focus:outline-none focus:ring-2 focus:ring-bgPrimary dark:focus:ring-textSecondary focus:border-transparent transition-all text-gray-900 dark:text-gray-100 placeholder-gray-400 disabled:opacity-50 disabled:cursor-not-allowed'
 										/>
 									</div>
