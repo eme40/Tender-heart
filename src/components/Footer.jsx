@@ -44,14 +44,14 @@ const socialMedia = [
 	{
 		id: 1,
 		icon: <MessageCircleMore className='w-5 h-5' />,
-		link: 'https://wa.me/2348034539407',
+		link: 'https://wa.me/2348034539407?text=Hello%20TenderHeart%20School.%20I%20would%20like%20to%20make%20an%20enquiry.',
 		label: 'WhatsApp',
 	},
 	{
 		id: 2,
 		icon: <Facebook className='w-5 h-5' />,
-		link: 'https://facebook.com/tenderheart',
-		label: 'Facebook',
+		link: 'https://m.me/TenderHeartInternationalSchoolEnugu',
+		label: 'Facebook Chat',
 	},
 	{
 		id: 3,

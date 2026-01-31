@@ -112,7 +112,7 @@ const LandingPage = () => {
 								initial={{ opacity: 0, y: 60 }}
 								animate={{ opacity: 1, y: 0 }}
 								transition={{ duration: 0.8, delay: 0.2 }}
-								className='text-base md:text-lg text-gray-300 dark:text-gray-300 leading-relaxed max-w-xl mx-auto md:mx-0'>
+								className='text-xs sm:text-base md:text-lg text-gray-300 dark:text-gray-300 leading-relaxed max-w-xl mx-auto md:mx-0'>
 								At Tender Heart, we help every child grow in faith, build strong
 								values, and lead with excellence — shaping confident learners
 								ready to make a difference.

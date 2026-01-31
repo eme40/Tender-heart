@@ -23,7 +23,7 @@ html{
 
 
 /* ✅ Debug screen indicator */
-@layer utilities {
+/* @layer utilities {
   .debug-screen::after {
     content: 'xs';
     position: fixed;
@@ -37,7 +37,7 @@ html{
     opacity: 0.8;
     z-index: 9999;
   }
-}
+} */
 
 /* ✅ Manually apply responsive overrides (must be OUTSIDE @layer in Tailwind v4) */
 @media (min-width: 640px) {
